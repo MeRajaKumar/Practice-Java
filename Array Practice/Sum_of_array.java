@@ -1,5 +1,5 @@
 // Define a class named Exercise2.
-public class Exercise2 {
+public class Sum_of_array {
     // The main method where the program execution starts.
     public static void main(String[] args) {      
         // Declare and initialize an integer array.

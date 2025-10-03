@@ -2,7 +2,7 @@
 import java.util.Arrays;
 
 // Define a class named Exercise1.
-public class Exercise1 {
+public class SortNumber_SortArray {
     // The main method where the program execution starts.
     public static void main(String[] args) {
         
