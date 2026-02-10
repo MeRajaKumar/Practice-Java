@@ -1,5 +1,5 @@
-// que: Print a 10x10 grid of dashe
-public class PrintGrid {
+// Define a class named Main.
+public class Main {
     // The main method where the program execution starts.
     public static void main(String[] args) {   
         // Declare a two-dimensional integer array 'a' with dimensions 10x10.
@@ -16,3 +16,15 @@ public class PrintGrid {
         }
     }
 }
+
+// output:
+ 0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  0  0  0 

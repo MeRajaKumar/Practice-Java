@@ -21,3 +21,7 @@ public class ArrayContainASpecificValue {
         System.out.println(contain(my_array1, 1800)); // false
     }
 }
+
+// output Sample Output:
+// true                                                                                                       
+// false 
