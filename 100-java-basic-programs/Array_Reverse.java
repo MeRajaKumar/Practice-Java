@@ -1,5 +1,5 @@
 // 1. simple way
-class ReverseJava{
+class Array_Reverse{
     public static void main(String[] args) {
         String str = "Hello World";
         String reversedStr = "";
@@ -17,7 +17,7 @@ class ReverseJava{
 // Reversed String: dlroW olleH
 
 // 2. reverse but at the word level
-class ReverseJava{
+class Array_Reverse{
     public static void main(String[] args) {
         String str = "Hello World";
         String[] words = str.split(" ");
@@ -37,7 +37,7 @@ class ReverseJava{
 
 
 // 3. reverse but at the same index but in reversed order
-class ReverseJava{
+class Array_Reverse{
     public static void main(String[] args) {
         String str = "Hello World";
         char[] charArray = str.toCharArray();
@@ -57,7 +57,7 @@ class ReverseJava{
 // Reversed String: dlroW olleH
 
 // 4. Using StringBuilder
-class ReverseJava{
+class Array_Reverse{
     public static void main(String[] args) {
         String str = "Hello World";
         StringBuilder sb = new StringBuilder(str);
@@ -72,7 +72,7 @@ class ReverseJava{
 // Reversed String: dlroW olleH
 
 // 5. Using Recursion
-class ReverseJava{
+class Array_Reverse{
     public static void main(String[] args) {
         String str = "Hello World";
         String reversedStr = reverseString(str);
@@ -93,7 +93,7 @@ class ReverseJava{
 // Original String: Hello World
 // Reversed String: dlroW olleH
 
-public class Hello {
+public class Array_Reverse {
     public static void main(String[] args) {
         System.out.println("Developer Aayush");
     }

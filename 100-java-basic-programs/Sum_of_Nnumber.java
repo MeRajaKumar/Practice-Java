@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumofNnumber {
+public class Sum_of_Nnumber {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter the number for sum : ");
@@ -16,7 +16,7 @@ public class SumofNnumber {
 // 2nd method
 import java.util.Scanner;
 
-public class SumofNnumber {
+public class Sum_of_Nnumber {
     // Function to calculate the sum
     public static int sumOfNaturalNumbers(int num) {
         int total = 0;

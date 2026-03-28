@@ -1,7 +1,7 @@
 // Sort an Array (Bubble Sort)
 import java.util.Scanner;
 
-class BubbleArrSort {
+class Array_Bubble_Sort {
     // Function to perform bubble sort
     static void bubbleSort(int arr[]) {
         int n = arr.length;

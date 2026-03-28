@@ -1,5 +1,5 @@
 // question: Print even numbers from 1 to 100
-// class EvenNum1to100 {
+// class Even_Odd_Number {
 //     public static void main(String[] args) {
 //         for (int i = 2; i <= 100; i += 2) {
 //             System.out.println(i);

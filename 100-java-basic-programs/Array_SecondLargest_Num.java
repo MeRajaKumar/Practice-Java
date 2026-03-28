@@ -1,5 +1,5 @@
 // 1 : traditional method
-public class Array_SecondLargestNum {
+public class Array_SecondLargest_Num {
     public static void main(String args[]) {
         int[] arr = {25, 47, 89, 12, 99, 56};
 
@@ -23,7 +23,7 @@ public class Array_SecondLargestNum {
 
 // 2 : usning Array.sort()
 import java.util.Arrays;
-public class Array_SecondLargestNum {
+public class Array_SecondLargest_Num {
     public static void main(String args[]) {
         int[] arr = {25, 47, 89, 12, 99, 99};
 
