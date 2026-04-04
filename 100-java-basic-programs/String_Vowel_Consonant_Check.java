@@ -47,6 +47,63 @@ import java.util.Scanner;
 
 // 2. Methods String.contains() ya indexOf()
 
+// public class String_Vowel_Consonant_Check {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter your string to count: ");
+//         String str = sc.nextLine();
+
+//         int vowelCount = 0;
+//         int consonantCount = 0;
+//         String vowels = "aeiouAEIOU";
+
+//         for(int i = 0; i <= str.length()-1; i++){
+//             Character ch = str.charAt(i);
+
+//             // or // 3. Method : toLowerCase() se simplify 
+//             // String vowels = "aeiou";
+//             // char ch = Character.toLowerCase(str.charAt(i));
+
+//             if(vowels.indexOf(ch) != -1){ vowelCount ++; }
+//             else if(Character.isLetter(ch)){ consonantCount++; }
+//         }
+
+
+//         System.out.println("Total num of Vowels: " + vowelCount);
+//         System.out.println("Total num of Consonants: " + consonantCount);
+//     }
+
+// }
+
+
+// // 4. Method : Enhanced for loop
+// public class String_Vowel_Consonant_Check {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter your string to count: ");
+//         String str = sc.nextLine();
+
+//         int vowelCount = 0;
+//         int consonantCount = 0;
+//         String vowels = "aeiouAEIOU";
+
+//         for(char ch : str.toCharArray()){
+
+//             if(vowels.indexOf(ch) != -1){ vowelCount ++; }
+//             else if(Character.isLetter(ch)){ consonantCount++; }
+//         }
+
+
+//         System.out.println("Total num of Vowels: " + vowelCount);
+//         System.out.println("Total num of Consonants: " + consonantCount);
+//     }
+
+// }
+
+
+// 5. Method : switch statement
 public class String_Vowel_Consonant_Check {
 
     public static void main(String[] args) {
@@ -56,24 +113,21 @@ public class String_Vowel_Consonant_Check {
 
         int vowelCount = 0;
         int consonantCount = 0;
-        String vowels = "aeiouAEIOU";
-
-        for(int i = 0; i <= str.length()-1; i++){
-            Character ch = str.charAt(i);
-
-            // or
-            // String vowels = "aeiou";
-            // char ch = Character.toLowerCase(str.charAt(i));
-
-            if(vowels.indexOf(ch) != -1){ vowelCount ++; }
-            else if(Character.isLetter(ch)){ consonantCount++; }
+        
+        for(char ch : str.toCharArray()){
+            switch(ch){
+            case 'a': case 'e': case 'i': case 'o': case 'u':
+            case 'A': case 'E': case 'I': case 'O': case 'U':
+                vowelCount++;
+                break;
+            default:
+                if(Character.isLetter(ch)){
+                    consonantCount++;
+                }
+            }
         }
-
-
+        
         System.out.println("Total num of Vowels: " + vowelCount);
         System.out.println("Total num of Consonants: " + consonantCount);
     }
-
 }
-
-// 3. Method : toLowerCase() se simplify 
